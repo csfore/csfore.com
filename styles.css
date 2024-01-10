@@ -1,0 +1,165 @@
+:root {
+    --darkback: #181818;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #d7d7d7;
+    background-color: var(--darkback);
+    font-family: "Lato", sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body a {
+    color: #d0a6a6;
+}
+
+body a:visited {
+    color: rgb(157, 98, 98);
+}
+
+.active {
+    color: #d0a6a6 !important;
+}
+
+/* Desktop View */
+@media (min-width: 750px) {
+    .mobile {
+        display: none;
+    }
+
+    .nav {
+        overflow: hidden;
+        width: 100%;
+        left: 0px;
+        background-color: #2f2f2f;
+    }
+
+    .desktop a {
+        color: #9d9d9d;
+        float: right;
+        text-align: center;
+        padding: 14px 17px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .desktop .link {
+        color: #d7d7d7;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        padding: 14px 0px;
+    }
+
+    .main {
+        margin: auto;
+        max-width: 60%;
+        align-items: center;
+        margin-top: 6em;
+        flex: 1 1 auto;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 749px) {
+    .desktop {
+        display: none;
+    }
+
+    .nav {
+        overflow: hidden;
+        width: 100%;
+        /* left: 0px; */
+        background-color: #2f2f2f;
+    }
+
+    .mobile {
+        /* margin-top: 3em; */
+        /* position: relative; */
+        text-align: center;
+    }
+
+    .mobile a {
+        display: inline-block;
+        color: #9d9d9d;
+        padding: 14px 17px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .mobile .link {
+        color: #d7d7d7;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        padding: 14px .5em;
+    }
+
+    .main {
+        margin: auto;
+        max-width: 75%;
+        align-items: center;
+        margin-top: 2em;
+        flex: 1 1 auto;
+    }
+}
+
+svg {
+    color: #d7d7d7;
+}
+
+.icon {
+    text-decoration: none;
+    color: #d7d7d7;
+    stroke: currentcolor;
+    fill: currentcolor;
+    visibility: inherit;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    contain: strict;
+    fill: currentcolor;
+    box-sizing: content-box !important;
+}
+
+.icon-none {
+    stroke: currentcolor;
+    color: #d7d7d7;
+    fill: none;
+}
+
+.fill-none {
+    fill: none;
+}
+
+.stroke-width {
+    stroke-width: var(--ionicon-stroke-width, 32px);
+}
+
+.main .name {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.main .socials {
+    text-decoration: none;
+    text-align: center;
+    padding-top: .6em;
+    font-size: 1.45em;
+}
+
+.main .desc {
+    /* margin: auto;
+    text-align: center; */
+    font-size: 1.10em;
+    padding: 1.3em;
+    word-spacing: .15em;
+    line-height: 1.5em;
+    /* max-width: 60%; */
+}
