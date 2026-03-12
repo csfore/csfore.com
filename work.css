@@ -9,7 +9,7 @@
     }
 
     .row {
-        padding-top: 2rem;
+        padding-top: .5rem;
         display: flex;
     }
     
@@ -21,6 +21,14 @@
 
     .item p {
         text-align: justify;
+    }
+
+    .main p {
+	    text-align: center;
+    }
+
+    .category {
+	    padding-top: 1rem;
     }
 }
 
