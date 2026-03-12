@@ -9,17 +9,22 @@
 
 <url>
   <loc>https://csfore.com/</loc>
-  <lastmod>2023-02-14T06:39:08+00:00</lastmod>
+  <lastmod>2026-03-12T20:28:27+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://csfore.com/projects.html</loc>
-  <lastmod>2023-02-14T06:39:08+00:00</lastmod>
+  <loc>https://csfore.com/work.html</loc>
+  <lastmod>2026-03-12T20:28:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://csfore.com/experience.html</loc>
-  <lastmod>2023-02-14T06:39:08+00:00</lastmod>
+  <lastmod>2026-03-12T20:27:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://csfore.com/resume.pdf</loc>
+  <lastmod>2026-02-28T15:23:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
